@@ -33,6 +33,11 @@ Nội dung file ciphertext.txt
 0502120415041c1a0d0a493536193122014016103c361c11333a5e282e503a445a3c5f0416455c5b000f4001575d411257021e
 ```
 
+Đây là thuật toán **xor**, đặc điểm của **xor** là:
+Nếu a ^ b = c thì:
+- c ^ a = b
+- c ^ b = a
+
 ![Screenshot](../screenshots/corrupted_file_1.png?raw=true "Screenshot")
 
 Mình đoán file này thật ra không phải file zip, mà là tác giả cố tình đổi đuôi thành .zip. 
