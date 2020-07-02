@@ -1,6 +1,6 @@
 *WannaGame \#2 - Writeups*
 ## Forensic
-- [Corrupted file](Forensic/Corrupted_file.md)
+- [Corrupted file](Forensic/Corrupted file.md)
 - Magic Wallet
 ## Pwn
 - Advanced Baby Pwn
