@@ -57,6 +57,6 @@ root@Vo-Van-Minh:/mnt/d/CTF/WannaGame2/_130e423cf6ea37874a01ae502bfff92n.jpg.ext
 B10F1:  data
 B1567:  data
 ```
-Trong mớ file này có 1 file PDF tên là **2E11E**, đổi đuôi thành .pdf và mở file này lên bằng trình duyệt (***Chrome chẳng hạn***). 
+Trong mớ file này có 1 file PDF tên là **2E11E**, đổi đuôi thành .pdf và mở file này lên bằng trình duyệt (_Chrome chẳng hạn_). 
 
 Nhấn tổ hợp Ctrl + F và tìm với từ khóa **flag{** sẽ thấy flag ```flag{m0r3_v4lu4bl3_th4n_y0u_th1nk}```
