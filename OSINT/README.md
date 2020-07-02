@@ -36,6 +36,8 @@ Kết quả:
 ```
 v=DKIM1;p=NG5kXzN2RW5fREsxbV9jT3VsZF9MRUBkX3QwX0VtQTFMX3BoMXNoSW5nX2E1M2ViZmZmM2YxMDk0YzA0fQ==
 ```
-Dễ dàng đoán ra chuỗi `NG5kXzN2RW5fREsxbV9jT3VsZF9MRUBkX3QwX0VtQTFMX3BoMXNoSW5nX2E1M2ViZmZmM2YxMDk0YzA0fQ==` là chuỗi **Base64**. Giải mã chuỗi trên ta được `4nd_3vEn_DK1m_cOuld_LE@d_t0_EmA1L_ph1shIng_a53ebfff3f1094c04}`
+Dễ dàng đoán ra chuỗi `NG5kXzN2RW5fREsxbV9jT3VsZF9MRUBkX3QwX0VtQTFMX3BoMXNoSW5nX2E1M2ViZmZmM2YxMDk0YzA0fQ==` là chuỗi **Base64** 
 
-Nối 3 chuỗi trên lại ta được Flag: `flag{wr0ng_SPF_0r_DM4rC_4nd_3vEn_DK1m_cOuld_LE@d_t0_EmA1L_ph1shIng_a53ebfff3f1094c04}`
+Giải mã chuỗi trên ta được `4nd_3vEn_DK1m_cOuld_LE@d_t0_EmA1L_ph1shIng_a53ebfff3f1094c04}`
+
+Nối 3 chuỗi trên lại => Flag: `flag{wr0ng_SPF_0r_DM4rC_4nd_3vEn_DK1m_cOuld_LE@d_t0_EmA1L_ph1shIng_a53ebfff3f1094c04}`
