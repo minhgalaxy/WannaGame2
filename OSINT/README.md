@@ -1,11 +1,13 @@
 # Fishing Rod
 >Our customers at vulnbox.net suffered a ransomware attack through phishing emails. Can you help us figure out why?
 
-DMARC (Domain-based Message Authentication & Conformance) là phương pháp giúp giải quyết vấn đề của giao thức xác thực email.
+**DMARC (Domain-based Message Authentication & Conformance)** là phương pháp giúp giải quyết vấn đề của giao thức xác thực email.
 
-Các vấn đề này gắn liền với khuôn khổ của SPF và DKIM. Đây là hai chính sách được hầu hết các nhà cung cấp hộp thư sử dụng để xử lý các email chứa virus hoặc mã độc, tin nhắn rác,… Từ đó, mang đến sự an tâm cho người dùng. DMARC chống lại các cuộc tấn công bằng cách sử dụng địa chỉ giả. Có thể tham khảo thêm tại (link này](https://postmarkapp.com/guides/dmarc)
+Các vấn đề này gắn liền với khuôn khổ của **SPF** và **DKIM**. Đây là hai chính sách được hầu hết các nhà cung cấp hộp thư sử dụng để xử lý các email chứa virus hoặc mã độc, tin nhắn rác,...
 
-Domain `vulnbox.net` đã bị tấn công bằng email lừa đảo, như vậy chắc chắn việc cấu hình SPF, DKIM và DMARC có vấn đề.
+DMARC giúp chống lại các cuộc tấn công sử dụng địa chỉ giả, các bạn có thể tham khảo thêm tại (link này](https://postmarkapp.com/guides/dmarc) và [link này](https://wiki.matbao.net/dmarc-la-gi-huong-dan-cach-tao-dmarc-record-don-gian-nhat/)
+
+Domain `vulnbox.net` đã bị tấn công bằng email lừa đảo, như vậy chắc chắn việc cấu hình **SPF, DKIM hoặc DMARC** có vấn đề.
 Chúng ta có thể kiếm tra tính hợp lệ của 3 giao thức này bằng công cụ online
 
 ## Kiểm tra SPF
