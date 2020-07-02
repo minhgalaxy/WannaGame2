@@ -7,7 +7,8 @@ Sau khi tải file về, các bạn sẽ thấy đuôi file là .zip nhưng khô
 
 ![Screenshot](../screenshots/corrupted_file_1.png?raw=true "Screenshot")
 
-Mình đoán file này thật ra không phải file zip, mà là tác giả cố tình đổi đuôi thành .zip. Để kiểm tra suy luận, mình dùng lệnh ```file 6iy5ny7KT.zip``` và kết quả đây là file jpeg
+Mình đoán file này thật ra không phải file zip, mà là tác giả cố tình đổi đuôi thành .zip. 
+Để kiểm tra suy luận, mình dùng lệnh ```file 6iy5ny7KT.zip``` và kết quả đây là file jpeg
 
 ```bash
 root@Vo-Van-Minh:/mnt/d/CTF/WannaGame2/Writeups/Forensic# file 6iy5ny7KT.zip
@@ -25,7 +26,7 @@ root@Vo-Van-Minh:/mnt/d/CTF/WannaGame2/Writeups/Forensic# file 6iy5ny7KT.zip
 
 [Link tải challenge](130e423cf6ea37874a01ae502bfff92n.jpg)
 
-Dùng tool **binwalk*** để extract những file bị ẩn file file ***130e423cf6ea37874a01ae502bfff92n.jpg***
+Dùng tool **binwalk*** để extract những file bị ẩn trong file ***130e423cf6ea37874a01ae502bfff92n.jpg***
 
 ```
 root@Vo-Van-Minh:/mnt/d/CTF/WannaGame2# binwalk --dd='.*' 130e423cf6ea37874a01ae502bfff92n.jpg
@@ -43,7 +44,8 @@ DECIMAL       HEXADECIMAL     DESCRIPTION
 5892741       0x59EA85        Unix path: /ColorSpace/DeviceRGB/Filter/FlateDecode/Height 140/Interpolate false/Length 432/SMask 708 0 R/Subtype/Image/Type/XObject/Width
 5913959       0x5A3D67        Unix path: /Subtype/XML/Type/Metadata>>stream
 ```
-**binwalk** sẽ extract những file nó biết vào thư mục **_130e423cf6ea37874a01ae502bfff92n.jpg.extracted**, dùng tiếp lệnh ```file *``` để kiểm tra loại file của những file này
+**binwalk** sẽ extract những file nó biết vào thư mục **_130e423cf6ea37874a01ae502bfff92n.jpg.extracted**.
+Dùng tiếp lệnh ```file *``` để kiểm tra loại file của những file này
 
 ```
 root@Vo-Van-Minh:/mnt/d/CTF/WannaGame2# cd _130e423cf6ea37874a01ae502bfff92n.jpg.extracted/
