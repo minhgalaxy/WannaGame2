@@ -81,11 +81,7 @@ Sau đó, chương trình sẽ duyệt lần lượt từng ký tự trong key n
 
 Mỗi vòng lặp, chương trình tạo 1 vùng nhớ có kích thước ```16 * ((4 * v10 + 15) / 16) = 4 * v10 + 15```
 
-Dòng code 
-```c++
-v13 = 4 * (((unsigned __int64)&j + 3) >> 2)
-```
-mục đích là gán địa chỉ vùng nhớ vừa cấp phát vào biến `v13`.
+Dòng code `v13 = 4 * (((unsigned __int64)&j + 3) >> 2)` mục đích là gán địa chỉ vùng nhớ vừa cấp phát vào biến `v13`.
 
 Vòng lặp
 ```c++
