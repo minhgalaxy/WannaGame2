@@ -5,7 +5,7 @@
 
 Các vấn đề này gắn liền với khuôn khổ của **SPF** và **DKIM**. Đây là hai chính sách được hầu hết các nhà cung cấp hộp thư sử dụng để xử lý các email chứa virus hoặc mã độc, tin nhắn rác,...
 
-**DMARC** giúp chống lại các cuộc tấn công sử dụng địa chỉ giả, các bạn có thể tham khảo thêm tại [https://postmarkapp.com/guides/dmarc](https://postmarkapp.com/guides/dmarc) và [https://wiki.matbao.net/dmarc-la-gi-huong-dan-cach-tao-dmarc-record-don-gian-nhat/](https://wiki.matbao.net/dmarc-la-gi-huong-dan-cach-tao-dmarc-record-don-gian-nhat/)
+**DMARC** giúp chống lại các cuộc tấn công sử dụng địa chỉ giả. (tham khảo thêm tại link [https://postmarkapp.com/guides/dmarc](https://postmarkapp.com/guides/dmarc) hoặc [https://wiki.matbao.net/dmarc-la-gi-huong-dan-cach-tao-dmarc-record-don-gian-nhat/](https://wiki.matbao.net/dmarc-la-gi-huong-dan-cach-tao-dmarc-record-don-gian-nhat/))
 
 Domain `vulnbox.net` đã bị tấn công bằng email lừa đảo, như vậy chắc chắn việc cấu hình **SPF, DKIM hoặc DMARC** có vấn đề.
 Chúng ta có thể kiếm tra tính hợp lệ của 3 giao thức này bằng công cụ online
