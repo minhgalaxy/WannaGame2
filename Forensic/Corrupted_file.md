@@ -13,6 +13,9 @@ Mình đoán file này thật ra không phải file zip, mà là tác giả cố
 root@Vo-Van-Minh:/mnt/d/CTF/WannaGame2/Writeups/Forensic# file 6iy5ny7KT.zip
 6iy5ny7KT.zip: JPEG image data, JFIF standard 1.01, resolution (DPI), density 300x300, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=1, orientation=upper-left], baseline, precision 8, 2360x1777, frames 3
 ```
+Đổi đuôi file lại thành .jpg và mở lên là có ngay flag
+
+![Screenshot](../screenshots/corrupted_file_2.png?raw=true "Screenshot")
 
 **Bold nè** Không bold
 *Italic* kkk
