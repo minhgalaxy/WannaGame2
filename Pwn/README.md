@@ -176,7 +176,7 @@ End of assembler dump.
 Sau đó nhập lệnh `run` để chạy chương trình. Nhập username là `admin`, mật khẩu là `password`. 
 
 Chương trình sẽ dừng ở breakpoint đã đặt:
-![Screenshot](../screenshots/pwn1.png?raw=true "Screenshot")
+![Screenshot](../screenshots/pwn_1.png?raw=true "Screenshot")
 
 Tiếp tục nhập lệnh `telescope 20` để xem trạng thái của stack lúc này
 ```
