@@ -67,7 +67,7 @@ int getflag()
 ```
 Vậy việc chúng ta cần làm là tìm cách đổi **return address** về địa chỉ của hàm **getflag**, sau đó chương trình sẽ thực hiện lệnh `system("cat flag")` để đọc flag cho chúng ta.
 
-Mở `pwn3` bằng **gdb**
+Mở `pwn3` bằng `gdb`
 
 ## Mã assembly của hàm main:
 ```
@@ -253,7 +253,7 @@ Dump of assembler code for function getflag:
 End of assembler dump.
 ```
 
-Địa chỉ của hàm flag nằm ở `0x0000000000400756`, mục đích của chúng ta là thay thế `ABCDABCD` ở trên bằng địa chỉ của hàm **getflag**, để khi chương trình gọi hàm **check_login** xong sẽ gọi hàm **getflag** và `cat flag` cho chúng ta.
+Địa chỉ của hàm flag nằm ở `0x0000000000400756`, bây giờ chỉ cần thay thế `ABCDABCD` ở trên bằng địa chỉ của hàm **getflag**
 
 Script solve.py
 ```python
