@@ -17,6 +17,9 @@ root@Vo-Van-Minh:/mnt/d/CTF/WannaGame2/Writeups/Forensic# file 6iy5ny7KT.zip
 
 ![Screenshot](../screenshots/corrupted_file_2.jpg?raw=true "Screenshot")
 
+##Flag: ```flag{ch3ck_3xt3n510n_f1r5t}```
+
+
 # Magic Wallet
 >It is not small as you think
 
@@ -59,4 +62,4 @@ B1567:  data
 ```
 Trong mớ file này có 1 file PDF tên là **2E11E**, đổi đuôi thành .pdf và mở file này lên bằng trình duyệt (_Chrome chẳng hạn_). 
 
-Nhấn tổ hợp Ctrl + F và tìm với từ khóa **flag{** sẽ thấy flag ```flag{m0r3_v4lu4bl3_th4n_y0u_th1nk}```
+Nhấn tổ hợp **Ctrl + F** và tìm với từ khóa **flag{** sẽ thấy flag ```flag{m0r3_v4lu4bl3_th4n_y0u_th1nk}```
