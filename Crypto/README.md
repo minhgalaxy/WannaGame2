@@ -45,9 +45,9 @@ Cho nên trong bài này ta có **flag ^ key = cipher**
 Dựa vào các challege trước, ta đã biết flag có dạng **flag{ahihi...}**, nên ta có thể tính được 10 ký tự đầu của key như sau
 
 ```
-cipher: 05 02 12 04 15 04 1c 1a 0d 0a 49 35 36 19 31 22 01 40 16 10 3c 36 1c 11 33 3a 5e 28 2e 50 3a 44 5a 3c 5f 04 16 45 5c 5b 00 0f 40 01 57 5d 41 12 57 02 1e
-flag:    f  l  a  g  {  a  h  i  h  i                                                                                                                          }
-key:     c  n  s  c  n  e  t  s  e  c                                                                                                                          c
+cipher(hex): 05 02 12 04 15 04 1c 1a 0d 0a 49 35 36 19 31 22 01 40 16 10 3c 36 1c 11 33 3a 5e 28 2e 50 3a 44 5a 3c 5f 04 16 45 5c 5b 00 0f 40 01 57 5d 41 12 57 02 1e
+flag(ascii):  f  l  a  g  {  a  h  i  h  i                                                                                                                          }
+key(ascii) :  c  n  s  c  n  e  t  s  e  c                                                                                                                          c
 ```
 Thử xor cipher bằng key **cnscnetsec** thì ra flag luôn :smile:
 
