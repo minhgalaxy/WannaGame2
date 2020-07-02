@@ -3,6 +3,11 @@
 
 [Link tải challenge](6iy5ny7KT.zip)
 
+Sau khi tải file về, các bạn sẽ thấy đuôi file là .zip nhưng không mở được
+
+![Screenshot](../screenshots/corrupted_file.jpg?raw=true "Screenshot")
+
+
 ```bash
 root@Vo-Van-Minh:/mnt/d/CTF/WannaGame2/Writeups/Forensic# file 6iy5ny7KT.zip
 6iy5ny7KT.zip: JPEG image data, JFIF standard 1.01, resolution (DPI), density 300x300, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=1, orientation=upper-left], baseline, precision 8, 2360x1777, frames 3
@@ -53,7 +58,7 @@ def main():
   print 'Hello world'
  ```
 
- ![Alt text](https://github.com/minhgalaxy/WannaGame2/blob/master/6f0160a8da73fa132bd89cda6ff6061d.jpg?raw=true "Hình ảnh title")
+ 
 
  
  
