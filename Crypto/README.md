@@ -51,6 +51,7 @@ key:     c  n  s  c  n  e  t  s  e  c                                           
 ```
 Thử xor cipher bằng key **cnscnetsec** thì ra flag luôn :smile:
 
+Script:
 ```python
 #!/usr/bin/env python3
 
