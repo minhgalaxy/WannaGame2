@@ -7,6 +7,7 @@ Sau khi tải file về, các bạn sẽ thấy đuôi file là .zip nhưng khô
 
 ![Screenshot](../screenshots/corrupted_file_1.png?raw=true "Screenshot")
 
+Mình đoán file này thật ra không phải file zip, mà là tác giả cố tình đổi đuôi thành .zip. Để kiểm tra suy luận, mình dùng lệnh ```file 6iy5ny7KT.zip``` và kết quả đây là file jpeg
 
 ```bash
 root@Vo-Van-Minh:/mnt/d/CTF/WannaGame2/Writeups/Forensic# file 6iy5ny7KT.zip
