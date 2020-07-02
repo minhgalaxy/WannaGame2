@@ -14,6 +14,7 @@ Tiến hành unpack upx
 ![Screenshot](../screenshots/re_2.png?raw=true "Screenshot")
 
 Sau đó mở file bằng **IDA Pro**, nhấn F5 để xem mã giả
+
 Hàm main:
 ```c++
 int __cdecl main(int argc, const char **argv, const char **envp)
