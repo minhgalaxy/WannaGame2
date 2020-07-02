@@ -4,7 +4,7 @@
 ## Pwn
 - Advanced Baby Pwn
 ## Crypto
-- The Return of Fox
+- [The Return of Fox](Crypto/README.md)
 ## Reverse Engineering
 - \[First Blood Challenge\] Crack me if you can!
 ## OSINT
