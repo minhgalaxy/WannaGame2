@@ -3,7 +3,7 @@
 
 [Link tải challenge](pwn3)
 
-Mở file `pwn3` bằng IDA Pro
+Mở file `pwn3` bằng **IDA Pro**
 
 Hàm main:
 ```c++
