@@ -18,7 +18,7 @@ root@Vo-Van-Minh:/mnt/d/CTF/WannaGame2/Writeups/Forensic# file 6iy5ny7KT.zip
 
 ![Screenshot](../screenshots/corrupted_file_2.jpg?raw=true "Screenshot")
 
-##Flag: ```flag{ch3ck_3xt3n510n_f1r5t}```
+## Flag: ```flag{ch3ck_3xt3n510n_f1r5t}```
 
 
 # Magic Wallet
