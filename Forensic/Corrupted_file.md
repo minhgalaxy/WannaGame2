@@ -3,6 +3,11 @@
 
 [Link tải challenge](6iy5ny7KT.zip)
 
+```bash
+root@Vo-Van-Minh:/mnt/d/CTF/WannaGame2/Writeups/Forensic# file 6iy5ny7KT.zip
+6iy5ny7KT.zip: JPEG image data, JFIF standard 1.01, resolution (DPI), density 300x300, segment length 16, Exif Standard: [TIFF image data, big-endian, direntries=1, orientation=upper-left], baseline, precision 8, 2360x1777, frames 3
+```
+
 **Bold nè** Không bold
 *Italic* kkk
 ~~gachj ngang ne~~
