@@ -255,7 +255,7 @@ End of assembler dump.
 
 Địa chỉ của hàm flag nằm ở `0x0000000000400756`, bây giờ chỉ cần thay thế `ABCDABCD` ở trên bằng địa chỉ của hàm **getflag**
 
-Script solve.py
+Script `solve.py`
 ```python
 rom pwn import *
 p = process('./pwn3')
