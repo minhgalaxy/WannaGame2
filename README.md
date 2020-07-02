@@ -2,13 +2,24 @@
 ## Forensic
 - [Corrupted file + Magic Wallet](Forensic/README.md)
 ## Pwn
-- Advanced Baby Pwn
+- [Advanced Baby Pwn](Pwn/README.md)
 ## Crypto
 - [The Return of Fox](Crypto/README.md)
-## Reverse Engineering
-- \[First Blood Challenge\] Crack me if you can!
+## RE
+- [\[First Blood Challenge\] Crack me if you can!](RE/README.md)
 ## OSINT
-- Fishing Rod
+- [Fishing Rod](OSINT/README.md)
+
+:blush::blush::blush:
+
+
+
+
+
+
+
+
+
 
 # Boo đảm đang
 **Bold nè** Không bold
