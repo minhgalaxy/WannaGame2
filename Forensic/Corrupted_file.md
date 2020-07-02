@@ -2,6 +2,7 @@
 >I need your help! Can you recover it?
 
 [Link tải challenge](6iy5ny7KT.zip)
+
 Sau khi tải file về, các bạn sẽ thấy đuôi file là .zip nhưng không mở được
 
 ![Screenshot](../screenshots/corrupted_file_1.png?raw=true "Screenshot")
