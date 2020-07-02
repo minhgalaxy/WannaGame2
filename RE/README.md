@@ -4,10 +4,13 @@
 [Link tải challenge](re4)
 
 Kiểm tra file bằng Detect It Easy
+
 ![Screenshot](../screenshots/re_1.png?raw=true "Screenshot")
+
 => File đã bị pack bằng UPX
 
 Tiến hành unpack upx
+
 ![Screenshot](../screenshots/re_2.png?raw=true "Screenshot")
 
 Sau đó mở file bằng **IDA Pro**, nhấn F5 để xem mã giả
