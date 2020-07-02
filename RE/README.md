@@ -83,6 +83,8 @@ Mỗi vòng lặp, chương trình tạo 1 vùng nhớ có kích thước ```16 
 
 Dòng code `v13 = 4 * (((unsigned __int64)&j + 3) >> 2)` mục đích là gán địa chỉ vùng nhớ vừa cấp phát vào biến `v13`.
 
+
+
 Vòng lặp
 ```c++
 for ( j = 0; j < (signed int)v10; ++j )
