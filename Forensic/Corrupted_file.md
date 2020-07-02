@@ -5,7 +5,7 @@
 
 Sau khi tải file về, các bạn sẽ thấy đuôi file là .zip nhưng không mở được
 
-![Screenshot](../screenshots/corrupted_file.jpg?raw=true "Screenshot")
+![Screenshot](../screenshots/corrupted_file.png?raw=true "Screenshot")
 
 
 ```bash
