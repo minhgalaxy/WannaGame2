@@ -15,7 +15,7 @@ root@Vo-Van-Minh:/mnt/d/CTF/WannaGame2/Writeups/Forensic# file 6iy5ny7KT.zip
 ```
 Đổi đuôi file lại thành .jpg và mở lên là có ngay flag
 
-![Screenshot](../screenshots/corrupted_file_2.png?raw=true "Screenshot")
+![Screenshot](../screenshots/corrupted_file_2.jpg?raw=true "Screenshot")
 
 **Bold nè** Không bold
 *Italic* kkk
