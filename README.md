@@ -1,4 +1,4 @@
-*WannaGame \#2 - Writeups*
+*WannaGame \#2 - Writeups :blush::blush::blush:*
 ## Forensic
 - [Corrupted file + Magic Wallet](Forensic/README.md)
 ## Pwn
@@ -10,7 +10,11 @@
 ## OSINT
 - [Fishing Rod](OSINT/README.md)
 
-:blush::blush::blush:
+
+
+
+
+
 
 
 
