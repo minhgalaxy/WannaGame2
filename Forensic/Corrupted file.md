@@ -1,17 +1,6 @@
-*WannaGame \#2 - Writeups*
-## Forensic
-- [Corrupted file](Forensic/Corrupted_file.md)
-- Magic Wallet
-## Pwn
-- Advanced Baby Pwn
-## Crypto
-- The Return of Fox
-## Reverse Engineering
-- \[First Blood Challenge\] Crack me if you can!
-## OSINT
-- Fishing Rod
+# Forensic - Corrupted file
+>Đề: I need your help! Can you recover it?
 
-# Boo đảm đang
 **Bold nè** Không bold
 *Italic* kkk
 ~~gachj ngang ne~~
@@ -20,7 +9,7 @@
 ***full important***
 >Full fact: Ahihii
 
->Bô dâm đãng
+
 
 ```
 list 1
