@@ -257,7 +257,7 @@ End of assembler dump.
 
 Script `solve.py`
 ```python
-rom pwn import *
+from pwn import *
 p = process('./pwn3')
 p.recvuntil('Input username:> ')
 p.sendline('admin')
