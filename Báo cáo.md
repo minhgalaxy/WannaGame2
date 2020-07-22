@@ -5,7 +5,7 @@
 import shutil
 
 input_name = "calc.exe"
-output_name = "calc-injected.exe"
+output_name = input_name.replace('.exe', '-injected.exe')
 
 shutil.copy2(input_name, output_name)
 ```
