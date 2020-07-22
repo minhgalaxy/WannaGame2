@@ -173,11 +173,6 @@ import struct
 import subprocess
 
 
-
-def align(value_to_align, alignment):
-	return int(((value_to_align + alignment - 1) / alignment) * alignment)
-
-
 def inject_shellcode(input_name, output_name):
 	print "\n\n[*] Injecting shellcode to %s ..." % input_name
 	shutil.copy2(input_name, output_name)
