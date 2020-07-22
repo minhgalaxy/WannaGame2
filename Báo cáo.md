@@ -35,10 +35,8 @@ for entry in pe.DIRECTORY_ENTRY_IMPORT:
 if not address_of_message_box_w:
   print "[-] PE file not imported MessageBoxW"
   exit()
-
-
-	print "[*] Address of MessageBoxW = %s" % hex(address_of_message_box_w)
-  ```
+print "[*] Address of MessageBoxW = %s" % hex(address_of_message_box_w)
+```
   Nếu file PE không import MessageBoxW thì chương trình sẽ dừng không cho chạy tiếp, vì không có hàm MessageBoxW làm sao hiện thông báo được đây!
   
   Chúng ta cũng cần một số thông tin từ file PE như ImageBase, AddressOfEntryPoint để tính toán
