@@ -41,23 +41,22 @@ print "[*] Address of MessageBoxW = %s" % hex(address_of_message_box_w)
   
   Chúng ta cũng cần một số thông tin từ file PE như **ImageBase**, **AddressOfEntryPoint** để tính toán
   ```python
-  image_base = pe.OPTIONAL_HEADER.ImageBase
-	entry_point_old = pe.OPTIONAL_HEADER.AddressOfEntryPoint
+image_base = pe.OPTIONAL_HEADER.ImageBase
+entry_point_old = pe.OPTIONAL_HEADER.AddressOfEntryPoint
   ```
   
   Shellcode sẽ được chèn vào section cuối của file PE, chúng ta sẽ lấy thông tin section cuối ra.
   ```python
-  
-	last_section = pe.sections[-1]
-	print "[+] Last section info: %s" % last_section 
-	last_section_virtual_offset = last_section.VirtualAddress + last_section.Misc_VirtualSize
-	last_section_raw_offset = last_section.PointerToRawData + last_section.SizeOfRawData
+last_section = pe.sections[-1]
+print "[+] Last section info: %s" % last_section 
+last_section_virtual_offset = last_section.VirtualAddress + last_section.Misc_VirtualSize
+last_section_raw_offset = last_section.PointerToRawData + last_section.SizeOfRawData
   ```
   Chúng ta sẽ cần biến **raw_address_of_shell_code** để chứa shellcode, biến **raw_address_of_caption** để chứa Caption và **raw_address_of_text** để chứa Text
   ```python
-	raw_address_of_shell_code = original_size
-	raw_address_of_caption = raw_address_of_shell_code + 0x50
-	raw_address_of_text = raw_address_of_shell_code + 0x70
+raw_address_of_shell_code = original_size
+raw_address_of_caption = raw_address_of_shell_code + 0x50
+raw_address_of_text = raw_address_of_shell_code + 0x70
   ```
   
   
