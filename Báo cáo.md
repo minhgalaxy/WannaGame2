@@ -88,9 +88,9 @@ entry_point_fix = new_entry_point - image_base
 jump_address = (entry_point_old + image_base - 5 - new_entry_point - 45) & 0xffffffff
 ```
 Vậy:
-X = virtual_address_of_caption
-Y = virtual_address_of_text
-Z = jump_address
+- X = virtual_address_of_caption
+- Y = virtual_address_of_text
+- Z = jump_address
 
 Đã xong, giờ ghi shellcode vào địa chỉ **raw_address_of_shell_code**
 ```python
