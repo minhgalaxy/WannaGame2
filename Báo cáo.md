@@ -1,6 +1,6 @@
 ### Chèn shellcode vào section cuối
 
-Để quá trình thêm shellcode không làm mất file exe gốc, chúng ta sẽ tiến hành copy file này ra thành 1 file khác. File mới sẽ có gắn thêm đuôi _-injected_
+Để quá trình thêm shellcode không làm mất file exe gốc, chúng ta sẽ tiến hành copy file này ra thành 1 file khác. File mới sẽ có gắn thêm đuôi **-injected**
 ```python
 import shutil
 
@@ -83,8 +83,11 @@ E9 <address of Entry Point>(Z)
 ```
 
 Việc bây giờ ta cần làm là tìm 3 giá trị **X,Y,Z** để điền vào shellcode.
+
 X = virtual_address_of_caption
+
 Y = virtual_address_of_text
+
 Z = jump_address
 
 ```python
