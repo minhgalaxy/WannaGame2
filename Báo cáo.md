@@ -87,7 +87,7 @@ new_entry_point = raw_address_of_shell_code - last_section.PointerToRawData + la
 entry_point_fix = new_entry_point - image_base
 jump_address = (entry_point_old + image_base - 5 - new_entry_point - 45) & 0xffffffff
 ```
-Vậy:
+Suy ra
 - X = virtual_address_of_caption
 - Y = virtual_address_of_text
 - Z = jump_address
