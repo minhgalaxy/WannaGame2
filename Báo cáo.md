@@ -39,7 +39,7 @@ print "[*] Address of MessageBoxW = %s" % hex(address_of_message_box_w)
 ```
   Nếu file PE không import MessageBoxW thì chương trình sẽ dừng không cho chạy tiếp, vì không có hàm MessageBoxW làm sao hiện thông báo được đây!
   
-  Chúng ta cũng cần một số thông tin từ file PE như ImageBase, AddressOfEntryPoint để tính toán
+  Chúng ta cũng cần một số thông tin từ file PE như **ImageBase**, **AddressOfEntryPoint** để tính toán
   ```python
   image_base = pe.OPTIONAL_HEADER.ImageBase
 	entry_point_old = pe.OPTIONAL_HEADER.AddressOfEntryPoint
@@ -80,7 +80,7 @@ FF 15 <address of MessageBox>
 E9 <address of Entry Point>(Z)
 ```
 
-Việc bây giờ ta cần làm là tìm 3 giá trị **X,Y,Z** để điền vào shellcode.
+Việc bây giờ ta cần làm là tìm 3 giá trị **X, Y, Z** để điền vào shellcode.
 
 X = virtual_address_of_caption
 
