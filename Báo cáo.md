@@ -1,4 +1,4 @@
-### Copy file
+### Chèn shellcode vào section cuối
 
 Để quá trình thêm shellcode không làm mất file exe gốc, chúng ta sẽ tiến hành copy file này ra thành 1 file khác. File mới sẽ có gắn thêm đuôi _-injected_
 ```python
